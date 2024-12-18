@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Color de fondo azul claro */
+    color: #000000;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50; /* Verde suave */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+section p, section ul, article {
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Historias */
+article h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+article p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Formulario */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el párrafo */
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Estilos del botón flotante del modo oscuro */
+button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    button {
+        top: 20px;
+        right: 20px;
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    button {
+        top: 15px;
+        right: 15px;
+        padding: 9px 18px;
+        font-size: 1em;
+    }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media (min-width: 901px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    button {
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+}
+
